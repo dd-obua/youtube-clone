@@ -1,22 +1,12 @@
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.thumbnail {
-  width: 100%;
-}
-
-.search-bar {
-  display: block;
-}
-
 .videos-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+.thumbnail {
+  width: 100%;
 }
 
 .video-title {
