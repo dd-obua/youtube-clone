@@ -1,15 +1,15 @@
 .sidebar {
-  width: 90px;
+  width: 9rem;
   background: #fff;
   position: fixed;
   left: 0;
   bottom: 0;
-  top: 60px;
+  top: 6rem;
   z-index: 200;
 }
 
 .sidebar-link {
-  height: 90px;
+  height: 9rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,10 +22,10 @@
 }
 
 .sidebar-link img {
-  height: 24px;
-  margin-bottom: 12px;
+  height: 2.4rem;
+  margin-bottom: 1.2rem;
 }
 
 .sidebar-link p {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
