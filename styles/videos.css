@@ -8,6 +8,24 @@
   border-top: 1px solid #c0c0c0;
 }
 
+@media (max-width: 750px) {
+  .videos-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .videos-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .videos-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .thumbnail {
   width: 100%;
 }
